@@ -1,6 +1,13 @@
 document.onload(function(){
-    var precio = 100;
-    console.log(precio);
-    var oferta = precio * 0.50;
+    var nota = 7;
+    console.log('He realizado el examen. Mi resultado es el siguiente:')
+    if (nota <= 5) {
+        calificacion = "Suspendido"
+    } else {
+        calificacion = "Aprobado"
+    }
+    console.log(calificacion);
+
+    var prueba = nota <= 5 ? "Suspendido" : "Aprobado";
 });
 
