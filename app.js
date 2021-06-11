@@ -1,3 +1,6 @@
 document.onload(function(){
-    alert('Una prueba para la web de clientes');
+    var precio = 100;
+    console.log(precio);
+    var oferta = precio * 0.50;
 });
+
